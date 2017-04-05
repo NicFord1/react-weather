@@ -14,9 +14,8 @@ module.exports = {
       } else {
         return res.data.main.temp;
       }
-    }, function(res) {
-      throw new Error(res.data.message);
+    }, function(err) {
+      throw new Error(err.response.data.message);
     });
   }
 }
-//If you are getting this error, try setting the value to either "inline-source-map" or "eval-source-map" instead.
