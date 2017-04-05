@@ -22,7 +22,7 @@ var Nav = React.createClass( {
               <Link to="/Examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
             </li>
             <li>
-              <a href="http://www.Nicks-Net.us" target="new">Nicholas Ford - Nicks-Net</a>
+              <a href="http://code.Nicks-Net.biz" target="new">Nicks-Net Code</a>
             </li>
           </ul>
         </div>
@@ -30,7 +30,7 @@ var Nav = React.createClass( {
           <form onSubmit={this.onSearch}>
             <ul className="menu">
               <li>
-                <input type="search" placeholder="Search Weather" />
+                <input type="search" placeholder="Search Weather by City" />
               </li>
               <li>
                 <input type="submit" className="button" value="Get Weather" />
