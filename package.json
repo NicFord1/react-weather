@@ -10,7 +10,7 @@
   "author": "Nicholas Ford",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.16.0",
+    "axios": "^0.21.2",
     "express": "^4.15.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -25,7 +25,7 @@
     "css-loader": "^0.28.0",
     "foundation-sites": "^6.3.1",
     "jquery": "^3.2.1",
-    "node-sass": "^4.5.2",
+    "node-sass": "^7.0.0",
     "sass-loader": "^6.0.3",
     "script-loader": "^0.7.0",
     "style-loader": "^0.16.1",
