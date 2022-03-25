@@ -38,16 +38,17 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.m?jsx?$/,
+        exclude: /(node_modules|bower_components)/,
         use: {
           loader: 'babel-loader',
-          query: {
-            presets: ['react', 'es2015', 'stage-0']
+          options: {
+            presets: ['@babel/preset-react', '@babel/preset-env'],
+            plugins: ['@babel/plugin-proposal-function-bind']
           }
-        },
-        test: /\.jsx?$/,
-        exclude: /(node_modules|bower_components)/
+        }
       }
     ]
   },
-  devtool: 'cheap-module-eval-source-map'
+  devtool: 'eval-cheap-module-source-map'
 };

@@ -29,7 +29,7 @@ var Nav = React.createClass( {
               <Link to="/Examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
             </li>
             <li>
-              <a href="http://code.Nicks-Net.biz" target="new">Nicks-Net Code</a>
+              <a href="https://GitHub.com/NicFord1" target="new">NicFord1@GitHub</a>
             </li>
           </ul>
         </div>
